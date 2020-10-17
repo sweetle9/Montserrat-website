@@ -8,22 +8,37 @@
   <style media="screen">
     section:nth-of-type(2) {
       display: flex;
-      height: 1780px;
       justify-content: space-between;
-      align-items: top;
-      text-align: center;
       vertical-align: top;
+    }
+    section:nth-of-type(2) div {
       overflow: hidden;
+      width: 50%;
+      padding-left: 40px;
     }
     section:nth-of-type(2) p {
       width: 728px;
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 30px;
+      text-align: center;
+      line-height: 48px;
+    }
+    section:nth-of-type(2) img {
+      display: inline-block;
+      position: absolute;
+      width: 465px;
+      height: 452px;
+      margin-top: 130px;
+      margin-left: 110px;
+      z-index: 1;
     }
       #sq1 {
+      position: absolute;
       width: 584px;
       height: 1780px;
       background: rgba(244, 100, 66, 1);
-      position: relative;
-      vertical-align: top;
+      margin-left: 860px;
     }
 
 
@@ -50,9 +65,12 @@
     <p>Montserrat был разработан Julieta Ulanovsky в 2010 году и получил название района в Буэнос-Айресе,
     в котором живёт его создатель.</p>
   </div>
-  <div id="sq1">
+  <div>
+    <img src="images/2010.png" alt="">
   </div>
   </section>
+  <div id="sq1">
+  </div>
   <!-- <div class="sq1">
   </div> -->
   </body>

@@ -32,11 +32,11 @@ section:nth-of-type(1) {
     width: 50%;
   }
   section img {
-  padding-left: 7%;
+  padding-left: 50px;
   }
   section h1, h2 {
      text-align: right;
-     padding-right: 7%;
+     padding-right: 50px;
      line-height: 5px;
      margin-bottom: 70px;
    }
